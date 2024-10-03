@@ -10,7 +10,7 @@ Feature: Program start dates and Refund dates
     #TODO: Create scenarios that cover all the acceptance criteria
 
     Background: 
-        Given user is on the no enrollment page
+        Given user is on the enrollment page
     @sep11-1
     Scenario: Verify that the program start date and refund date are displayed
         Then the program start date is displayed
